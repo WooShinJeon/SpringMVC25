@@ -1,7 +1,5 @@
 package org.zerock.persistence;
 
-import static org.junit.Assert.fail;
-
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -32,12 +30,12 @@ public class JDBCTests {
 					"jdbc:oracle:thin:@192.168.111.104:1521:xe", 
 					"book_ex", 
 					"book_ex");
-			log.info(con);
+			log.info(con); // 콘솔에 객체 로그 출력
 			
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		// 2단계까지 테스트 완료
+	// 2단계 까지 테스트 완료
 	}
-} // 클래스 종료
+}// 클래스 종료
