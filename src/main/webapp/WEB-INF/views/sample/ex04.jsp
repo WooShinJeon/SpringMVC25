@@ -4,8 +4,7 @@
 <title>ex04.jsp</title></head><body>
 
 
-	<h2> SampleDTO : ${ sampleDTO }</h2>
+	<h2> SampleDTO : ${sampleDTO }</h2>
 	<h3> page : ${page }</h3>
-
 </body>
 </html>
